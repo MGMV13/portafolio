@@ -1,0 +1,284 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background:#F3F5FC;
+    height: 700px;
+}
+.flex-container{
+   
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 35px;
+  
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    
+
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+   
+}
+.right{
+    top:-80%;
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 100%;
+    border-radius: 32px;
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    
+ 
+    
+}
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+.Recon{
+    color: #495057;
+    opacity: 0.8;
+    font-size: 15px;
+    line-height: 150%;
+    font-weight: 400;
+    right: -5%;
+    position: relative;
+    
+  
+}
+
+#imgVec{
+    margin-top: -5.1%;
+    margin-left: 1%;
+    float: inherit;
+
+
+}
+    
+.logoImg{
+    margin-top: auto;
+    margin-left: -21%;
+    float: inherit;
+}
+
+
+
+.text-input{
+    float: left;
+    margin-left: 1%;
+    margin-top: 10%;
+    width: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    background:#F3F5FC;
+
+}
+
+#imgMun{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+
+}
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 120%;
+    text-align: center;
+    font-size: 24px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+  
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: auto;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+}
+#but-encriptar{
+    padding: 24px;
+    width: 40%;
+    height: 50%;
+    border-radius: 24px;
+    margin-left: 1.8%;
+    background: #0A3871;
+    transition: 1s all;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+}
+
+#but-encriptar:hover{
+    background: #275a99;
+    transform: scale(1.2);
+}
+
+
+#but-desencriptar{
+    padding: 24px;
+    width: 40%;
+    height: 50%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #87b1e9;
+    transition: 1s all;
+    cursor: pointer;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+    
+#but-desencriptar:hover{
+    background: #bbcee6;
+    transform: scale(1.2);
+}
+    
+
+#copiar{
+    margin-left: 30%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 50%;
+    height: 10%;
+    background: #a9c2e2;
+    border-radius: 24px;
+    display: none;
+    transition: 1s all ;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+
+}
+
+#copiar:hover{
+    background: #66768a;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:480px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 375px;
+        height: 933px;
+        background: #F3F5FC;
+    }
+
+    .logoImg{
+        position: relative;
+        left: 10%;
+        right: 87.2%;
+        top: 10%;
+        bottom: 25%;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        
+        position: relative;
+        float: right;
+        width: 100%;
+        height: 25%;
+        top: -3%;
+        margin-top: 17%;
+      
+    }
+    #imgMun{
+        width: 0%;
+        height: 0%;
+    }
+    #texto{
+        margin-left: 9%;
+        margin-block: -12%;
+        font-size: 34px;
+    }
+    #texto2{
+        width: 80%;
+        height: 30%;
+        margin-top: 15%;
+        margin-left: 12%;
+        font-size: 19px;
+       
+    }
+
+    #but-encriptar{
+        width: 150%;
+        height: 30%;
+        margin-left: -3%;
+    }
+
+    #but-encriptar:hover{
+        transform: none;
+    }
+    #but-desencriptar{
+        width: 150%;
+        height: 30%;
+        margin-block: 10%;
+        margin-left: -3%;
+
+    }
+    #but-desencriptar:hover{
+        transform: none;
+    
+    }
+
+    #imgVec{
+        margin-top: -14%;
+    }
+    .Recon{
+        margin-left: 4%;
+    }
+    .text-input{
+        width: 100%;
+        height: 50%;
+        font-size: 35px;
+    }
+    #copiar{
+        margin-left: 28%;
+        margin-top: 17%;
+        height: auto;
+        
+    }
+    #copiar:hover{
+        transform: none;
+    }
+    }
+
+
+
+    
+
+
+
+
+
+    
