@@ -45,7 +45,7 @@ body{
     height: auto;
     border-radius: 24px;
 }
-.Recon{
+.recon{
     color: #495057;
     opacity: 0.8;
     font-size: 15px;
@@ -57,7 +57,7 @@ body{
   
 }
 
-#imgVec{
+#imgvec{
     margin-top: -5.1%;
     margin-left: 1%;
     float: inherit;
@@ -65,7 +65,7 @@ body{
 
 }
     
-.logoImg{
+.logoimg{
     margin-top: auto;
     margin-left: -21%;
     float: inherit;
@@ -86,7 +86,7 @@ body{
 
 }
 
-#imgMun{
+#imgmun{
     margin-left: 2%;
     margin-top: 20%;
     width: 90%;
@@ -190,7 +190,7 @@ body{
         background: #F3F5FC;
     }
 
-    .logoImg{
+    .logoimg{
         position: relative;
         left: 10%;
         right: 87.2%;
@@ -212,7 +212,7 @@ body{
         margin-top: 17%;
       
     }
-    #imgMun{
+    #imgmun{
         width: 0%;
         height: 0%;
     }
@@ -251,11 +251,11 @@ body{
     
     }
 
-    #imgVec{
-        margin-top: -80%;
+    #imgvec{
+        margin-top: -14%;
         margin-left: 5%;
     }
-    .Recon{
+    .recon{
         margin-left: 4%;
         width: 120%;
         right: -9%;
