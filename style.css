@@ -61,17 +61,8 @@ body{
     position: relative;
     left: 1%;
     margin-top: -5.3%;
-}
-    
-}
-#vec{
-    margin-top: -5.1%;
-    margin-left: 1%;
-    float: inherit;
-
-
-}
-    
+}   
+   
 .logoimg{
     margin-top: auto;
     margin-left: -21%;
@@ -266,11 +257,6 @@ body{
         top: -12%;
         left: 5%;
 
-    #vec{
-        margin-top: -27%;
-        margin-left: -1%;
-        float: inherit;
-    }
     .recon{
         margin-left: 4%;
         width: 120%;
