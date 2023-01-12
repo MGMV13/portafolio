@@ -57,6 +57,11 @@ body{
   
 }
 .imgvector{
+    float: inherit;
+    position: relative;
+    left: 1%;
+    margin-top: -5.3%;
+}
     
 }
 #vec{
