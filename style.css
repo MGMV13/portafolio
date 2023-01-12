@@ -234,6 +234,7 @@ body{
         width: 150%;
         height: 30%;
         margin-left: -3%;
+        margin-block: 10%;
     }
 
     #but-encriptar:hover{
