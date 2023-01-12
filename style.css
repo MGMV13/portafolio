@@ -251,6 +251,13 @@ body{
         transform: none;
     
     }
+    .imgvector{
+        width: 0%;
+        height: auto;
+        margin: -8%;
+        position: relative;
+        top: -12%;
+        left: 5%;
 
     #vec{
         margin-top: -27%;
@@ -261,7 +268,8 @@ body{
         margin-left: 4%;
         width: 120%;
         right: -9%;
-        top: 10%;
+        top: -4%;
+        left: 2%;
         
     }
     .text-input{
