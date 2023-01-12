@@ -57,7 +57,7 @@ body{
   
 }
 
-#imgvec{
+#vec{
     margin-top: -5.1%;
     margin-left: 1%;
     float: inherit;
@@ -251,9 +251,10 @@ body{
     
     }
 
-    #imgvec{
+    #vec{
         margin-top: -14%;
-        margin-left: 5%;
+        margin-left: -1%;
+        float: inherit;
     }
     .recon{
         margin-left: 4%;
