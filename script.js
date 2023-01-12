@@ -9,7 +9,7 @@
         var txtCifrado = txtCifrado.replace(/a/img,"ai");
         var txtCifrado = txtCifrado.replace(/u/img,"ufat");
 
-        document.getElementById("imgMun").style.display="none";
+        document.getElementById("imgmun").style.display="none";
         document.getElementById("texto").style.display="none";
         document.getElementById("texto2").innerHTML=txtCifrado;
         document.getElementById("copiar").style.display= "show";
@@ -27,7 +27,7 @@
     var txtCifrado = txtCifrado.replace(/ai/img,"a");
     var txtCifrado = txtCifrado.replace(/ufat/img,"u");
 
-    document.getElementById("imgMun").style.display="none";
+    document.getElementById("imgmun").style.display="none";
     document.getElementById("texto").style.display="none";
     document.getElementById("texto2").innerHTML=txtCifrado;
     document.getElementById("copiar").style.display= "show";
